@@ -62,6 +62,13 @@ h1{
 .titulo_nosotros{
     padding: 6rem;
 }
+@media (min-width: 768px) {
+    .nosotros{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 40rem;
+    }
+} 
 .nosotros{
     display: grid;
     grid-template-columns: 1fr 1fr;
